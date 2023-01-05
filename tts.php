@@ -1,6 +1,6 @@
 <?php
 
-$apikey = 'YOUR_API_KEY_HERE';
+$apikey = getenv('NARAKEET_API_KEY');
 $text = 'Hi there from PHP';
 $voice = 'brian';
 
